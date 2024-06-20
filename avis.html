@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+ 
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>AmizourLab</title>
+        <!--font-->
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet" type="text/css">
+          
+        <!--css-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/navbar.css">
+        <script src="https://kit.fontawesome.com/e1acd6ecb5.js" crossorigin="anonymous"></script>
+    </head>
+    <!--le contenu du site -->
+    <body>
+      <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+        <div class="container">
+          <div class="row align-items-center position-relative">
+            <div class="site-logo">
+              <a href="index.html" class="text-black"><span class="text-primary"><img src="img/logo_bleu.png" width="45%"></a>
+            </div>
+            <div class="col-12">
+              <nav class="site-navigation text-right ml-auto " role="navigation">
+                <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block font-weight-bold">
+                  <li><a href="index.html" class="nav-link">Accueil</a></li>
+                  <li><a href="login.html" class="nav-link">Vos Résultats</a></li>
+                  <li><a href="index.html#about" class="nav-link">À propos</a></li>
+                  <li><a href="avis.html" class="nav-link active">Demander d'avis</a></li>
+                  <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+          </div>
+        </div>
+      </header>
+      <!-- Form start -->
+        <div class="row">
+          <div class="row">
+            <img src="img/banner.jpg" class="w-100">
+          </div>
+          <div class="container mt-3">
+            
+            <div class="row">
+                <div class="col-5 mr-auto mt-5">
+                  <img src="img/contact.jpg" class="w-100" alt="">
+                </div>
+                <div class="col-7">
+                  <form action="" method="post">
+                    <fieldset>
+                      <legend>Contactez nous! </legend>
+                      <!-- saisir le Nom -->
+                      <div class="form-group">
+                        <label for="nom">Nom</label>
+                        <input id="nom" nom="nom" type="text" placeholder="Votre nom" class="form-control">
+                      </div>
+              
+                      <!-- Email -->
+                      <div class="form-group">
+                        <label class="col control-label" for="email">Votre E-mail</label>
+                        <input id="email" name="email" type="text" placeholder="Votre email" class="form-control">
+                      </div>
+              
+                      <!--  le Message  -->
+                     <div class="form-group">
+                        <label class="col control-label" for="message">Votre message</label>
+                        <textarea class="form-control" id="message" name="message" placeholder="Entrez votre message ici..." rows="5"></textarea>
+                      </div>
+              
+                      <!-- boutton envoyer -->
+                      <div class="form-group">
+                        <div class="col text-right">
+                          <button type="Envoyer " class="btn btn-primary btn-lg">Envoyer</button>
+                        </div>
+                      </div>
+                    </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer class="footer-distributed" id="contact">
+          <div class="footer-left">
+              <h3>Amizour<span>lab</span></h3>
+              <p class="footer-links">
+                  <a href="index.html" class="link-1">Accueil</a>
+                  <a href="avis.html">Demande d'avis</a>
+                  <a href="">A propos</a>
+                  <a href="#contact">Contact</a>
+              </p>
+              <p class="footer-company-name">Amizour lab Dr N.MESSAOUDI Epse BEGTACHE</p>
+          </div>
+          <div class="footer-center">
+              <div>
+                  <i class="fa fa-map-marker"></i>
+                  <p> Aadjroud Cité 30 Logts EPLF Amizour Béjaia </p>
+              </div>
+              <div>
+                  <i class="fa fa-phone"></i>
+                  <p>034 30 71 84 // 0555 24 20 59 </p>
+              </div>
+              <div>
+                  <i class="fa fa-envelope"></i>
+                  <p> laboratoiremessaoudi@gmail.com</p>
+              </div>
+      </footer>
+    </body>
+</html>

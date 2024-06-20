@@ -1,0 +1,60 @@
+@charset "UTF-8";
+ /*font-family: 'Raleway', sans-serif; */s
+body{
+   font-family: 'Raleway', sans-serif
+}
+
+.myWidth{
+    width:640px;
+    height:360px;
+}
+/*a propos de nous */
+/*Demande d'avis */
+/*contact  */
+.myButton{
+    background-color:#19759A;
+}
+
+body .mid{
+    padding: 10px 10px 10px 10px;
+    background-image: url(/img/cover-titre.png);
+    background-size: cover;
+    height: 220px;
+    padding-bottom: 30px;
+  
+}
+.mid h3{
+    padding-top:70px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 22px;
+    transition: 0.7s ease-in-out;
+}
+.mid h1{
+    padding-top:10px;
+    font-size: 22px;
+    color: rgb(45, 11, 11);
+    transition: 0.6s ;
+}
+.information{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.prise{
+    float:right;
+    width: 500px;
+    height: 260px;
+    padding-left: 100px;
+}
+.texte{
+    text-align: justify;
+    font-family: verdana;
+}
+.texte h3{
+    color: rgb(40, 128, 155);
+}
+.texte p{
+    font-size: 18px;
+}

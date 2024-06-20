@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,100;1,200&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box ;
+    font-family: 'Poppins', sans-serif;
+}
+.debut{
+    margin-left: 3%;
+    text-align: center;
+    padding: 10px;
+}
+.debut h1{
+    text-transform:uppercase ;
+    font-size: 35px;
+    color:rgb(40, 128, 155);
+}
+.debut h3{
+    font-size: 17px;
+    color: #5c5c5c;
+    letter-spacing: 1.5px;
+    transition: 0.4s ease-in-out;
+}
+.cards{
+    width: 75%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    grid-gap:30px ;
+    
+}
+.card{
+    box-shadow: 0px 8px 12px  rgb(0,0,0,0.2);
+    transition: 0.5s;
+
+   
+}
+.cards .card:hover{
+    transform: translatey(-9px);
+    background: linear-gradient(45deg,rgb(40, 128, 155),lightblue)
+}
+.cards .card img{
+    display: block;
+    height: 150px;
+    width: 100%;
+    /* border-radius: 15px; */
+}
+.content{
+    text-align: center;
+    height: 110px;
+}
+.content h2{
+    margin-top: 5px;
+    letter-spacing: 1.5px;
+    color: #333;
+   
+}
+.content h3{
+    font-size: 17px;
+    color: #5c5c5c;
+    letter-spacing: 1.5;
+    
+}
+ .content p{
+    margin-top: 10px;
+    color: #5c5c5c;
+} 
+.but{
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    background-color: rgb(40, 128, 155);
+    color: #fff;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 12px;
+    border-radius: 40px;
+    letter-spacing: 1.5px;
+    margin: 20px 50px ;
+
+} 
+.but:hover{
+    background-color: #db7d7d;
+    transition:0.2s ;
+}
+
+.about{
+    width: 100%;
+   height: auto;
+} 
+.about .cont{
+    width: 80%;
+    display: block;
+    margin-right: 10px;
+    padding: 50px 0px;
+}
+.cont .ti{
+    width: 100%;
+    text-align: center;
+    margin-left: 4%;
+    
+}
+.cont .ti  h1{
+    text-transform:uppercase ;
+    font-size: 35px;
+    color:rgb(40, 128, 155);
+}
+.cont .ti  h3{
+    font-size: 17px;
+    color: #5c5c5c;
+    letter-spacing: 1.5px;
+    transition: 0.4s ease-in-out;
+}
+.cont .ti h1 ::after {
+    content: "";
+    
+    width: 100px;
+    background-color: #c4d156;
+    border-radius: 25px;
+    display: block;
+   
+}
+.contentt{
+    float: left;
+    width :55%;
+    padding: 40px
+}
+.image-section{
+    margin-top: 0px;
+    float: right;
+    width:40%;
+    
+    padding-right: 40px;
+    padding-bottom: 60px;
+}
+.image-section img{
+    width: 100%;
+    height: 400px;
+    
+}
+.contentt .article p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.contentt .article  a{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(40, 128, 155);
+    color: #fff;
+    font-size: 17px;
+    padding: 10px 18px;
+    border-radius: 40px;
+    letter-spacing: 1.5px;
+}
+.contentt .article  a:hover{
+    background-color: #db7d7d;
+    transition:0.2s  ;
+}
+
+             /* certifications */
+             .fin{
+                margin-left: 35%;
+                text-align: center;
+                padding: 10px;
+            }
+            .fin h1{
+                text-transform:uppercase ;
+                font-size: 35px;
+                color:rgb(40, 128, 155);
+                margin-top: 500px;
+                margin-right: 500px;
+            }
+            .fin h3{
+                font-size: 17px;
+                color: #5c5c5c;
+                letter-spacing: 1.5px;
+                transition: 0.4s ease-in-out;
+            }
+            .partie{
+                height: 10px;
+            }
+            .card img{
+                cursor: pointer;
+                transition:0,2s ease-in-out;
+            }
+            .card:hover{
+                color: aquamarine;
+            }

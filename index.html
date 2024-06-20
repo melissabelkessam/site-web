@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+ 
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            AmizourLab  
+        </title>
+        <!--font-->
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet" type="text/css">
+          
+        <!--css-->
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="js/counter.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/e1acd6ecb5.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <!-- css de publications et a propos ..  -->
+        <link rel="stylesheet" href="css/mixte.css">
+    </head>
+    <!--le contenu du site -->
+    <body>
+        <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+            <div class="container">
+              <div class="row align-items-center position-relative">
+                <div class="site-logo">
+                  <a href="index.html" class="text-black"><span class="text-primary"><img src="img/logo_bleu.png" width="45%"></a>
+                </div>
+                <div class="col-12">
+                  <nav class="site-navigation text-right ml-auto " role="navigation">
+                    <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block font-weight-bold">
+                      <li><a href="index.html" class="nav-link link active">Accueil</a></li>
+                      <li><a href="login.html" class="nav-link">Vos Résultats</a></li>
+                      <li><a href="index.html#about" class="nav-link">À propos</a></li>
+                      <li><a href="avis.html" class="nav-link">Demande d'avis</a></li>
+                      <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+              </div>
+              <div class="row align-items-center position-relative">
+                <nav class="nav nav-pills flex-column flex-sm-row w-50 mt-3">
+                  <a class="flex-sm-fill text-sm-center myLinks mr-3" aria-current="page" href="recup_resultats.html">Comment récupérer vos résultats</a>
+                  <a class="flex-sm-fill text-sm-center myLinks" href="#publications">Préparation avant analyses</a>
+                </nav>
+              </div>
+            </div>
+        </header>
+          <!--carousel start-->
+        <div class="container-fluid">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/slide1.jpg" width="640" height="550" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block myCaption">
+                      <button class="btn btn-light">Lire plus</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/slide2.jpg" width="640" height="550"alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block myCaption">
+                      <button class="btn btn-light">Lire plus</button>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="img/slide3.jpg" width="640" height="550"alt="Second slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <button class="btn btn-light"><a href="covid.html" class="nav-link">Lire Plus</a></button>
+                  </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+          <!--end carousel-->
+        <div class="container-fluid cards-container">
+          <div class="container-fluid">
+            <div class="row d-flex align-items-center justify-content-center">
+              <div class="mt-4 text-white"><h2>SPECIALITES</h2></div>
+            </div>
+            <div class="row d-flex align-items-center justify-content-center mt-1">
+              <div class="col-2 mr-2">
+                <div class="flip-card" tabIndex="0">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front" id="crd1">
+                      <h3>Hormonologie</h3>
+                    </div>
+                    <div class="flip-card-back">
+                      L'hormonologie est une branche de la biochimie clinique qui étudie les anomalies hormonales. 
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 mr-2">
+                <div class="flip-card" tabIndex="0">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front" id="crd2">
+                      <h3>Hemobologie</h3>
+                    </div>
+                    <div class="flip-card-back">
+                      Discipline médicale concernant les indications, les modalités, la surveillance, l'efficacité et les complications de la perfusion de sang ou de dérivés sanguins.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 mr-2">
+                <div class="flip-card" tabIndex="0">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front" id="crd3">
+                      <h3>Biochimie</h3>
+                    </div>
+                    <div class="flip-card-back">
+                      La biochimie est l'étude des réactions chimiques qui se déroulent au sein des êtres vivants, et notamment dans les cellules.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 mr-2">
+                <div class="flip-card" tabIndex="0">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front" id="crd4">
+                      <h3>Microbiologie</h3>
+                    </div>
+                    <div class="flip-card-back">
+                      La microbiologie est un domaine des sciences appliquées qui a pour objet les micro-organismes et les activités qui les caractérisent.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-2 d-flex align-items-center justify-content-center">
+              <div class="col-2 mr-2">
+                <div class="flip-card" tabIndex="0">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front" id="crd6">
+                      <h3>Mycologie</h3>
+                    </div>
+                    <div class="flip-card-back">
+                      La mycologie est la science qui étudie les champignons.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 mr-2">
+                <div class="flip-card" tabIndex="0">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front" id="crd5">
+                      <h3>Parasitologie</h3>
+                    </div>
+                    <div class="flip-card-back">
+                      La parasitologie est l'étude des parasites, de leurs hôtes et de leurs interactions mutuelles.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 mr-2">
+                <div class="flip-card" tabIndex="0">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front" id="crd7">
+                      <h3>Spermiologie</h3>
+                    </div>
+                    <div class="flip-card-back">
+                      La spermiologie est une branche de la biologie médicale, qui a pour but d'analyser la quantité et la qualité du sperme et donc des spermatozoïdes.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 mr-2">
+                <div class="flip-card" tabIndex="0">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front" id="crd8">
+                      <h3>Immunologie</h3>
+                    </div>
+                    <div class="flip-card-back">
+                      L'immunologie est la branche de la biologie qui s'occupe de l'étude du système immunitaire. 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <section class="debut mt-4" id="publications">
+          <h1 class="text-white">Publications</h1>
+          <h3 class="'">Préparation avant analyses</h3>
+  
+      </section>
+      <!-- ici  -->
+
+    <section class="middle">
+    <div class="cards">
+        <div class="card">
+            <div class="tf"><img src="img/1avant.jpg " ></div>
+            <div class="content">
+                <h2>Bilan sanguin</h2>
+                <h3>Pourquoi faut-il être à jeun avant une prise de<br>sang</br></h3>
+               
+                <!-- <p> Par précaution, il est préférable d'être à jeun pour une prise de sang, à condition que le prélèvement soit effectué tôt dans la matinée.vous devez compter 10 à 12 h entre votre dernier repas et la prise de sang</p> -->
+            </div>
+            <a  href="bilan_sanguin.html" class="but">Voir Plus</a>
+            
+        </div>
+
+        <div class="card">
+            <img src="img/2.blood.jpg">
+            <div class="content">
+                <h2>Detecteur de veine </h2>
+                <h3>Tubes pédiatriques</h3>
+                <!-- <p> Le détecteur de veines infrarouge permet la visualisation rapide et précise de veines. Ainsi la ponction veineuse est même possible sans problème pour des patients avec des<br> veines difficiles.</br>
+
+                </p> -->
+            </div>
+            <a href="detecteur_veines.html" class="but">Voir Plus</a>
+            
+        </div>
+
+        <div class="card">
+            <img src="img/3.urine.jpg">
+            <div class="content">
+                <h2>ECBU</h2>
+                <h3>Examen Cytobactériologique de l'urine</h3>
+                <!-- <p>Il faut dire que les infections urinaires représentent la seconde cause d’infection bactérienne après les infections respiratoires. Elles peuvent toucher la vessie  et les reins (pyélonéphrite).
+                </p> -->
+            </div>  
+            <a href="ecbu.html" class="but">Voir Plus</a>
+            
+        </div>
+
+        <div class="card">
+            <img src="img/4.derma.jpg">
+            <div class="content">
+                <h2>biopsie</h2>
+                <h3>Prélévement dermatologique</h3>
+                <!-- <p>Une biopsie [du grec βιός (biós), vie et ὄψις (ópsis), vue] est le prélèvement d'une très petite partie d'un organe ou d'un tissu pour effectuer des examens concernant un être vivan
+                </p> -->
+            </div>
+                <a href="biopsie.html" class="but">Voir Plus</a>
+        </div>
+
+        <div class="card">
+            <img src="img/5.selles.jpg">
+            <div class="content">
+                <h2>Recueil de selles</h2>
+                <h3>La coproculture  des selles </h3>
+            </div><!-- <p>Un examen parasitologique des selles (EPS) consiste à analyser les selles pour y rechercher la présence parasites, en cas de symptômes ...</p> -->
+                <a href="selles.html" class="but">Voir Plus</a>
+            
+        </div>
+
+        <div class="card">
+            <img src="img/analy.jpeg">
+            <div class="content">
+                <h2>Résultats</h2>
+                <h3> récupérer vos résultats</h3>
+                <!-- <p>Les différantes étapes pour récupérer vos résultats en ligne sans avoir de se deplacer vers le laboratoire une 2eme fois
+             </p> -->
+            </div>
+            <a href="recup_resultats.html" class="but">Voir Plus</a>
+            
+        </div>
+        
+    </div>
+</section>
+              <!-- a propos de nous  -->
+<div class="about">
+    <div class="cont">
+        <div class="ti">
+          <h1 class="text-white">A propos de nous</h1>
+          <h3 class="">Qui sommes nous ?</h3>
+        </div>
+        <div class="contentt">
+            <div class="article">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis optio aliquid, consectetur quo accusantium adipisci aliquam fugit officia minus labore dolor quas placeat, harum amet cum assumenda neque. Dolores, temporibus.</p>
+
+                     <a href="#this"> Certifications</a>
+                
+            </div>
+        </div>
+    </div>
+    <div class="image-section">
+        <img src="img/docteur.png" >
+    </div>
+</div>
+ <!-- <div class="partie"-->
+     <!-- certificats -->
+<section class="fin">
+    <h1 class="text-white">Certifications</h1>
+    <a name="this"></a>
+</section>         
+<section class="middle">
+<div class="cards d-flex align-items-center justify-content-center">
+    <div class="card">
+        <img src="img/Cul1.jpg">
+    </div>
+    <div class="card">
+        <img src="img/Management-Certificate.jpg">
+    
+    </div>
+    <div class="card">
+        <img src="img/PMP-fake-Certificate.jpg">
+
+    </div>
+</div>
+</section>
+<div class="container">
+  <div class="row d-flex align-items-center justify-content-center">
+      <div class="col-md-3 col-sm-6">
+          <div class="counter">
+              <span class="counter-value">2751</span>
+              <h3>Analyses</h3>
+          </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+          <div class="counter blue">
+              <span class="counter-value">5000</span>
+              <h3>Clients statisfaits</h3>
+          </div>
+      </div>
+  </div>
+</div>
+        </div>
+
+        <div class="debut mt-5">
+          <h1 class="">Emplacement</h1>
+        </div>
+        <div class="container-fluid d-flex align-items-center justify-content-center mt-1">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3201.347700595217!2d4.905961317443843!3d36.64208509999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128d2f9c15fd2afb%3A0xe073a852f6f5abd2!2sAmizourLAB%20Dr%20Messaoudi%20eps.%20Begtache!5e0!3m2!1sfr!2sdz!4v1649540868105!5m2!1sfr!2sdz" width="1800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <footer class="footer-distributed" id="contact">
+          <div class="footer-left">
+              <h3>AmizourLab</h3>
+              <p class="footer-links">
+                  <a href="index.html" class="link-1">Accueil</a>
+                  <a href="avis.html">Demande d'avis</a>
+                  <a href="#this">A propos</a>
+                  <a href="#contact">Contact</a>
+              </p>
+              <p class="footer-company-name">Amizour lab Dr N.MESSAOUDI Epse BEGTACHE</p>
+          </div>
+          <div class="footer-center">
+              <div>
+                  <i class="fa fa-map-marker"></i>
+                  <p> Aadjroud Cité 30 Logts EPLF Amizour Béjaia </p>
+              </div>
+              <div>
+                  <i class="fa fa-phone"></i>
+                  <p>034 30 71 84 // 0555 24 20 59 </p>
+              </div>
+              <div>
+                  <i class="fa fa-envelope"></i>
+                  <p> laboratoiremessaoudi@gmail.com</p>
+              </div>
+      </footer>
+    </body>
+    
+</html>
